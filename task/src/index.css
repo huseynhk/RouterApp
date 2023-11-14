@@ -65,32 +65,33 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
-.sides{
+.sides {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
 }
 
+
+
 @media screen and (max-width: 800px) {
   .sides {
     flex-direction: column;
   }
-  .side{
+  .side {
     margin: 20px 0px;
+    width: 300px;
   }
-  img{
-    width: 450px;
+  img {
+    width: 350px;
+    height: 300px;
   }
-  .column p{
-    margin: 20px ;
+  .column p {
+    margin: 15px 70px 20px 80px;
   }
 }
-
-
 
 .text {
   background-color: #000;
