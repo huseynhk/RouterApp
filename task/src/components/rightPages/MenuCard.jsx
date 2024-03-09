@@ -10,8 +10,8 @@ const MenuCard = ({ title, image, description, price, id }) => {
       <h4>{title}</h4>
       <h6>{description.slice(0, 30)}</h6>
       <p>$ {price}</p>
-      {/* <Link to={`${ROUTER.ProductDetails}/${id}`}>Go Details Page</Link> */}
-      <button onClick={() => navigate(`/product/${id}`)}>Go Details Page</button>
+      <Link to={`${ROUTER.ProductDetails}/${id}`}>Go Details Page</Link>
+      {/* <button onClick={() => navigate(`/product/${id}`)}>Go Details Page</button> */}
     </div>
   );
 };
