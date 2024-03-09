@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="main contact flex">
       <div className="side">
         <h2>Contact Us</h2>
-        <address>28 May Jale Plaza</address>
+        <address>Khetai Rusel Plaza</address>
         <Link to={ROUTER.Home}>Go Back</Link>
         <Link to={ROUTER.Product}>Check Products</Link>
       </div>
